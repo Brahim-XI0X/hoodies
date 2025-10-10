@@ -508,3 +508,24 @@ gap: 10px;
   background:  rgba(255, 255, 255, 0.1);
   color: #fff;
 }
+
+.errorcode p {
+    color: red;
+}
+
+
+.img-about img{
+   width: 200px;
+   height: auto;
+   border-radius: 50px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.title-form h2{
+    text-align: center;
+}

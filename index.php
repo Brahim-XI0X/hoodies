@@ -3,6 +3,8 @@ include './inc/db.php';
 include './inc/form.php';
 include './inc/select.php';
 include './inc/db_close.php';
+
+
 ?>
 
 
@@ -62,8 +64,9 @@ include './inc/db_close.php';
   <div class="code-container">
     <div class="title-code">
     <div class="inp-code">
-    <input type="text" name="" id="" class="txt-inp-code" placeholder="Write your code">
-    <input type="submit" name="" id="" class="sub-inp-code">
+        <input type="text" name="code" id="open" class="txt-inp-code" placeholder="Write your code">
+        <div class="errorcode"><p><?php  echo $msg; ?></p></div>
+        <input type="submit" name="submit" id="open-code2" class="sub-inp-code" value="Check">
     <div class="btn-code">
     <button id="closeCode">Close</button>
     </div>
@@ -71,7 +74,21 @@ include './inc/db_close.php';
     </div>
   </div>
 </section>
-<section class="form">
+
+<section class="about">
+    <div class="title-about">
+        <h2 class="from-title">About</h2>
+        <div class="img-about">
+            <img src="./img/trust pink.png" alt="not found" class="imgg-about">
+
+            <p class="para-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptatibus
+                 placeat dicta delectus at earum, nulla nemo eaque consequatur corrupti magnam? 
+                 Incidunt vel aspernatur, aut amet quas consectetur natus velit.</p>
+        </div>
+    </div>
+
+</section>
+<section class="form" id="codeInputBox2">
     <div class="title-form">
         <h2 class="from-title">About</h2>
 
