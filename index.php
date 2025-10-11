@@ -77,13 +77,16 @@ include './inc/db_close.php';
 
 <section class="about">
     <div class="title-about">
-        <h2 class="from-title">About</h2>
+        <h1 class="about-title">About</h1>
         <div class="img-about">
             <img src="./img/trust pink.png" alt="not found" class="imgg-about">
 
-            <p class="para-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptatibus
+            <div class="des">
+                <h2 class="title-ho">Hoodies Maker</h2>
+                <p class="para-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptatibus
                  placeat dicta delectus at earum, nulla nemo eaque consequatur corrupti magnam? 
                  Incidunt vel aspernatur, aut amet quas consectetur natus velit.</p>
+            </div>
         </div>
     </div>
 
@@ -95,7 +98,7 @@ include './inc/db_close.php';
        
    
     <div class="form-s">
-          <form action="index.php" method="POSt">
+          <form action="index.php" method="POST">
     <div class="firstn">
         <input type="text" name="firstname" id="firstname" placeholder="Firstname">
         <div class="err"><?php echo $errors['firstnameError']; ?></div>
